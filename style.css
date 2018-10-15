@@ -1,0 +1,83 @@
+button {
+    background-color: #494949; /* Green */
+    border: none;
+    color: whitesmoke;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+
+.upperHalf {
+    background-color: #3a3a3a;
+    height: 80vh;
+    width: 105vw;
+    margin-left: -10px;
+    margin-top: -5px;
+    overflow: hidden;
+}
+
+#resetButt {
+  /*  visibility: hidden; */
+}
+
+.descCont {
+    background-color: #494949;
+    color: white;
+    height: 60vh;
+    padding: 20px 20px;
+    text-align: left;
+    width: 60vw;
+    min-width: 400px;
+    min-height: 200px;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    align-content: center;
+    scroll-behavior: auto;
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+}
+
+.descCont h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* 
+OK but needs to be centered
+.separator {
+    height: 1px;
+    width: 25vw;
+    margin-left: inherit;
+    margin-top: -15px;
+    background-color: whitesmoke;
+} */
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* please center the buttons man */
+.choices {
+}
+
+.buttonRegion {
+    height: 10vh;
+    width: 105%;
+    background-color: #292929;
+    padding: 20px;
+    /* margin-top: 81vh; */
+    margin-left: -10px;
+    overflow: hidden;
+}
+
+
+button:hover {
+    background-color: black;
+    transition-duration: 4s ease-in-out;
+}
